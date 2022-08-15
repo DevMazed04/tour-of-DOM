@@ -40,11 +40,18 @@ console.log(finalLi);
 //createElement li
 
 const liNew = document.createElement("li");
-liNew.innerText = "Do not waste a single time!!!"
+liNew.innerText = "Jumma";
 console.log("\n");
 console.log(liNew);
+liNew.style.color = "limegreen"
 
-const salatContainer = document.querySelector(".salat-container ul");
+const salatContainer = document.querySelectorAll(".salat-container ul li")[1];
 salatContainer.appendChild(liNew);
+
+// const zuhorSalat = document.getElementsByClassName('day-time')[1];
+// // console.log(zuhorSalat);
+// zuhorSalat.appendChild(liNew);
+
+
 
 
